@@ -87,7 +87,12 @@ section
 
 .text_content
 {
+	text-align: left;
+}
 
+.text_promo h3
+{
+		font-weight: normal;
 }
 
 .text_promo h1, .text_content h3
@@ -98,7 +103,7 @@ section
 
 #mc_embed_signup{
 	background: #EB6759; 
-	clear: left; 
+	text-align: center; 
 	font: 2.3em Helvetica, Arial, sans-serif;
 	border-radius: 8px;
 }
