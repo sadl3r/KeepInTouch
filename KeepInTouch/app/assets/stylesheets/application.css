@@ -37,11 +37,11 @@ section
 	margin: 0;
 }
 
-.image_iphone, .text_promo, .team
+.image_iphone, .text_promo, .team, .social
 {
 	margin-top: 20px;
 	margin-bottom: 50px;
-	margin-right: 10%;
+	margin-right: 5%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -106,4 +106,31 @@ section
 #mc-embedded-subscribe {
 	background: #C9574B !important;
 	box-shadow: black 4px 4px; 
+}
+
+.comming_soon
+{
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+
+.comming_soon_item
+{
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	margin: 15px;
+	width: 30%;
+}
+
+.comming_soon p
+{
+	text-align: left;
+}
+
+a:hover
+{
+	background: none;
 }
