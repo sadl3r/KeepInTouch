@@ -1,2 +1,19 @@
-  <h1>phone<h1>  
-    <p><%=@user.phone%><p>
+<section>
+  <div class="div_my_contact">
+    <h1>Our contact<h1>  
+      <%@user.contact_lists.each do |contact|%>
+          
+          <h3><%=contact.name%><h3>
+          <div class="item_contacts">
+          <%contact.informations.each do |information|%>
+            <%= image_tag("icon_user.jpg", :class => "icon_user")%>
+            <div class="info_contacts">
+              <p>first name:  <%=information.first_name%></p>
+              <p>last name:  <%=information.last_name%></p>
+              <p>phone :  <%=information.phone%></p>
+            <div>
+          <% end %>
+        <div>
+      <% end %>
+  </div>
+<section>

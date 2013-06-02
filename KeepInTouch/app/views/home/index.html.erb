@@ -1,10 +1,43 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
-
-
-<%= form_tag("/users/", :method => "get") do %>
-  <%= label_tag(:p, "Search for:") %>
-  <%= text_field_tag(:phone) %>
-  <%= submit_tag("Search") %>
-<% end %>
-	
+<section>
+	<header>
+	</header>
+	<div class="team">
+<!-- 		<h1>THE TEAM</h1> -->	
+	</div>
+	<div class="image_iphone">
+		<div class="home-phones" id="iphone">
+		  <div id="iphone-overlay">
+		    <%=image_tag("PushContact-iconpage.jpg", :class => "active")%>
+		    <%=image_tag("iphone-2.png")%>
+		    <%=image_tag("iphone-3.png")%>
+		  </div>
+		</div>
+	</div>
+	<div class="text_promo">
+		<div class="text_content">
+			<%= image_tag("PushContact-logolandingpage.jpg")%>
+			<h1>Le repertoire intelligent<h1>
+			<%= image_tag("phonenumber.png", :class => "phonenumber_input")%>
+			<!-- Begin MailChimp Signup Form -->
+			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+			<div id="mc_embed_signup">
+				<form action="http://pushcontact.us7.list-manage.com/subscribe/post?u=6921ab2fe1668cfec892f05a6&amp;id=c7e35135ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<label for="mce-EMAIL">Subscribe to our mailing list</label>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					<div class="clear">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					</div>
+				</form>
+			</div>
+			<!--End mc_embed_signup-->
+			<h3>Dyin' ain't much of livin, boy. that tall drink of water with the silver spoon up is ass. I did the same thing to gandhi, he didn't eat for three weeks.<h3>
+		</div>
+		<div class="stors">
+			<%= image_tag("ios.png")%>
+			<%= image_tag("android.png")%>
+			<%= image_tag("windows.png")%>
+		<div>
+	</div>
+	<footer>
+	</footer>
+</section>
